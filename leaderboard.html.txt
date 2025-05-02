@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Leaderboard - UFC Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>UFC Game</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="game.html">Play Game</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h2>Leaderboard</h2>
+<table>
+<tr>
+<th>Rank</th>
+<th>Player</th>
+<th>Score</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Player One</td>
+<td>1500</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Player Two</td>
+<td>1300</td>
+</tr>
+</table>
+</main>
+
+<footer>
+<p>&copy; 2025 UFC Game. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

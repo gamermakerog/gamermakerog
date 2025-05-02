@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Play UFC Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>UFC Game</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="leaderboard.html">Leaderboard</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h2>Fight Your Opponent!</h2>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<button id="startButton">Start Game</button>
+</main>
+
+<footer>
+<p>&copy; 2025 UFC Game. All Rights Reserved.</p>
+</footer>
+
+<script>
+let canvas = document.getElementById('gameCanvas');
+let ctx = canvas.getContext('2d');
+let startButton = document.getElementById('startButton');
+
+let player = { x: 50, y: 500, width: 50, height: 100, color: 'red' };
+let opponent = { x: 700, y: 500, width: 50, height: 100, color: 'blue' };
+
+function draw() {
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+ctx.fillStyle = player.color;
+ctx.fillRect(player.x, player.y, player.width, player.height);
+ctx.fillStyle = opponent.color;
+ctx.fillRect(opponent.x, opponent.y, opponent.width, opponent.height);
+}
+
+function startGame() {
+draw();
+}
+
+startButton.addEventListener('click', startGame);
+</script>
+</body>
+</html>

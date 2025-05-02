@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>About - UFC Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>UFC Game</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="game.html">Play Game</a></li>
+<li><a href="leaderboard.html">Leaderboard</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h2>About UFC Game</h2>
+<p>The UFC Game is an exciting, action-packed game where you can battle your way to become the ultimate UFC Champion. Fight against different opponents, level up, and see if you can top the leaderboard!</p>
+</main>
+
+<footer>
+<p>&copy; 2025 UFC Game. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
